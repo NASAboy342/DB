@@ -1,0 +1,89 @@
+.body{
+    background-color: rgb(78, 78, 78);
+    font-family: Arial, sans-serif;
+    color: white
+}
+
+.home{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(133, 133, 133);
+    box-shadow: 0px 0px 20px rgb(44, 44, 44);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.home >a{
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 10px;
+    background-color: rgb(78, 78, 78);
+    box-shadow: 0px 0px 0px rgb(44, 44, 44);
+    transition: box-shadow 0.2s, padding 0.3s;
+}
+.home >a:hover{
+    box-shadow: 0px 0px 10px rgb(44, 44, 44);
+    padding: 5px 15px;
+}
+.home >a:active{
+    box-shadow: 0px 0px 0px rgb(44, 44, 44);
+}
+.home >a>h3{
+    color: white;
+}
+
+.form{
+    position: relative;
+    top: 100px;
+    width: 90%;
+    margin: auto;
+    background-color: rgb(133, 133, 133);
+    box-shadow: 0px 0px 20px rgb(44, 44, 44);
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.form>form>table{
+    background-color: rgb(133, 133, 133);
+    text-align: center;
+}
+.form>form>table>tr,th,td{
+    padding: 5px 5px;
+    background-color: rgb(78, 78, 78);   
+}
+.form>a{
+    text-decoration: none;
+}
+.form>a>p{
+    text-align: center;
+    color: rgb(255, 255, 255);;
+    padding: 5px 5px;
+    width: 70px;
+    background-color: rgb(20, 169, 189);
+    border-radius: 15px;
+    box-shadow: none;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+.form>a>p:hover{
+    background-color: rgb(25, 228, 255);
+}
+.form>a>p:active{
+    background-color: rgb(0, 0, 0);
+}
+
+.change{
+    border: none;
+    background-color: rgb(20, 169, 189);
+    color: white;
+    padding: 5px;
+    border-radius: 15px;
+    transition: box-shadow 0.2s, padding 0.2s;
+}
+.change:hover{
+    box-shadow: 0px 0px 5px rgb(44, 44, 44);
+    padding: 5px 10px;
+}
+.change:active{
+    box-shadow: none;
+}

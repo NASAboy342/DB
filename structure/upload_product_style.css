@@ -1,0 +1,61 @@
+.body{
+    background-color: rgb(78, 78, 78);
+    font-family: Arial, sans-serif;
+    color: white
+}
+
+.home{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(133, 133, 133);
+    box-shadow: 0px 0px 20px rgb(44, 44, 44);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.home >a{
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 10px;
+    background-color: rgb(78, 78, 78);
+    box-shadow: 0px 0px 0px rgb(44, 44, 44);
+    transition: box-shadow 0.2s, padding 0.3s;
+}
+.home >a:hover{
+    box-shadow: 0px 0px 10px rgb(44, 44, 44);
+    padding: 5px 15px;
+}
+.home >a:active{
+    box-shadow: 0px 0px 0px rgb(44, 44, 44);
+}
+.home >a>h3{
+    color: white;
+}
+
+.addmore{
+    position: relative;
+    top: 100px;
+    width: 30%;
+    margin: auto;
+}
+.addmore >a{
+    text-decoration: none;
+    text-align: center;
+}
+.addmore >a>h4{
+    background-color: rgb(133, 133, 133);
+    box-shadow: 0px 0px 20px rgb(44, 44, 44);
+    border-radius: 5px;
+    padding: 5px 5px;
+    transition: background-color 0.3s, box-shadow 0.1s, padding 0.3s;
+    color: white;
+}
+.addmore >a>h4:hover{
+    padding: 10px 10px;
+    background-color: rgb(177, 177, 177);
+}
+.addmore >a>h4:active{
+    box-shadow: none;
+}

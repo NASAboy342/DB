@@ -1,0 +1,107 @@
+.body{
+    background-color: rgb(78, 78, 78);
+    font-family: Arial, sans-serif;
+    color: white
+}
+
+.home{
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(133, 133, 133);
+    box-shadow: 0px 0px 20px rgb(44, 44, 44);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.home >a{
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 10px;
+    background-color: rgb(78, 78, 78);
+    box-shadow: 0px 0px 0px rgb(44, 44, 44);
+    transition: box-shadow 0.2s, padding 0.3s;
+}
+.home >a:hover{
+    box-shadow: 0px 0px 10px rgb(44, 44, 44);
+    padding: 5px 15px;
+}
+.home >a:active{
+    box-shadow: 0px 0px 0px rgb(44, 44, 44);
+}
+.home >a>h3{
+    color: white;
+}
+
+.vlsl{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 100px;
+    background-color: rgb(133, 133, 133);
+    box-shadow: 0px 0px 20px rgb(44, 44, 44);
+    padding: 7px 10px;
+    border: none;
+    border-radius: 20px;
+    transition: background-color 0.2s, box-shadow 0.2s, top 0.2s, border 0.2s;
+}
+.vlsl:hover{
+    background-color: rgb(150, 150, 150);
+    box-shadow: 0px 10px 20px rgb(44, 44, 44);
+    top: 93px;
+    border: 1px solid rgb(190, 85, 85);
+}
+.vlsl:active{
+    box-shadow: none;
+}
+
+.stock{
+    z-index: 0;
+    position: relative;
+    top: 140px;
+    background-color: rgb(88, 88, 88);
+    box-shadow: 0px 0px 20px rgb(44, 44, 44);
+    border-radius: 5px;
+    padding: 10px;
+}
+.stock>table{
+    background-color: rgb(133, 133, 133);
+    
+}
+.stock>table>tr,th{
+    color: rgb(27, 228, 255);
+}
+.stock>table,th,td{
+    border: 1px solid transparent;
+    border-collapse: collapse;
+    padding: 0px 10px;
+}
+.stock>table>th,tr:nth-child(even){
+    background-color: rgb(88, 88, 88);
+}
+.stock>table>tr,td>a
+{
+    text-decoration: none;
+}
+.stock>table>tr,td>a>p{
+    color: rgb(255, 255, 255);;
+    padding: 5px 5px;
+    background-color: rgb(20, 169, 189);
+    border-radius: 15px;
+    box-shadow: none;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+.stock>table>tr,td>a>p:hover{
+    background-color: rgb(25, 228, 255);
+}
+.stock>table>tr,td>a>p:active{
+    background-color: rgb(0, 0, 0);
+}
+.deleteb{
+    background-color: rgb(218, 11, 11);
+}
+.deleteb:hover{
+    background-color: red;
+}
